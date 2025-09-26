@@ -1,0 +1,51 @@
+body{
+    font-family:'Time New Roman','Times New Roman', Times, serif ;
+    background-color: rgb(243,215,215);
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: bisque;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+main{
+    padding: 20px;
+    margin: 20px;
+}
+
+section,article{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5.5px;
+}
+@media  screen and(max-width:600px) {
+    nav,a{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (min-width:901px){
+    main{
+        display:flex ;
+        justify-content: space-between;
+    }
+}
+
+
+    
